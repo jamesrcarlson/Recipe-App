@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		614794201B3F17D900D327FC /* DetialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147941F1B3F17D900D327FC /* DetialViewController.m */; };
 		61AA1DB61B3CF6F900B72CA1 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AA1DB51B3CF6F900B72CA1 /* RecipeViewController.m */; };
 		61AA1DB91B3CF80800B72CA1 /* RARecipes.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AA1DB81B3CF80800B72CA1 /* RARecipes.m */; };
 		71F67B51192C8D6A00E609F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F67B50192C8D6A00E609F1 /* Foundation.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6147941E1B3F17D900D327FC /* DetialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetialViewController.h; sourceTree = "<group>"; };
+		6147941F1B3F17D900D327FC /* DetialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetialViewController.m; sourceTree = "<group>"; };
 		61AA1DB41B3CF6F900B72CA1 /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
 		61AA1DB51B3CF6F900B72CA1 /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
 		61AA1DB71B3CF80800B72CA1 /* RARecipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RARecipes.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				71F67B60192C8D6A00E609F1 /* RAAppDelegate.m */,
 				61AA1DB41B3CF6F900B72CA1 /* RecipeViewController.h */,
 				61AA1DB51B3CF6F900B72CA1 /* RecipeViewController.m */,
+				6147941E1B3F17D900D327FC /* DetialViewController.h */,
+				6147941F1B3F17D900D327FC /* DetialViewController.m */,
 				61AA1DB71B3CF80800B72CA1 /* RARecipes.h */,
 				61AA1DB81B3CF80800B72CA1 /* RARecipes.m */,
 				71F67B62192C8D6A00E609F1 /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				61AA1DB91B3CF80800B72CA1 /* RARecipes.m in Sources */,
 				71F67B5D192C8D6A00E609F1 /* main.m in Sources */,
 				71F67B61192C8D6A00E609F1 /* RAAppDelegate.m in Sources */,
+				614794201B3F17D900D327FC /* DetialViewController.m in Sources */,
 				61AA1DB61B3CF6F900B72CA1 /* RecipeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

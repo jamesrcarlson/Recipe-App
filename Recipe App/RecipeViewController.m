@@ -8,8 +8,9 @@
 
 #import "RecipeViewController.h"
 #import "RARecipes.h"
+#import "DetialViewController.h"
 
-@interface RecipeViewController () <UITableViewDataSource>
+@interface RecipeViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @end
 
@@ -19,8 +20,11 @@
     [super viewDidLoad];
     
     UITableView *recipeTable = [[UITableView alloc] initWithFrame:self.view.frame];
+    self.title = @"Reipce";
     
     recipeTable.dataSource = self;
+    
+    recipeTable.delegate = self;
     
     [self.view addSubview:recipeTable];
     
@@ -44,7 +48,15 @@
     return [RARecipes count];
 }
 
-
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    DetialViewController *controller = [DetialViewController new];
+    
+    controller.recipeIndex = indexPath.row;
+    
+    [self.navigationController pushViewController:controller animated:YES];
+    
+}
 
 /*
 #pragma mark - Navigation
